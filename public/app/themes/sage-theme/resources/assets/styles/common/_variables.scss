@@ -18,3 +18,35 @@ $semibold: 500;
 $bold: 700;
 
 $p-size: 18px;
+
+
+
+//PassAlong Colors
+$purple: #5857a6;
+$green: #5fa037;
+$orange: #e79333;
+$black: #332d36;
+$absoluteBlack: #000;
+$white: #fff;
+
+
+
+//Fonts
+$heading: 'Amaranth';
+$body: 'Arimo';
+$bodyFooter: 'Arimo';
+$bodySize: 18px;
+
+
+//Functions
+
+
+
+
+@function set-notification-text-color($color) {
+    @if (lightness($color) > 70) {
+      @return $darkGrey; // Lighter background, return dark color
+    } @else {
+      @return $grey; // Darker background, return light color
+    }
+}
