@@ -1,0 +1,128 @@
+body {
+  font-family: $sans-serif;
+  font-weight: $light;
+  color: $txt-primary; //color variable set elsewhere
+  background: $body-bg;
+  -webkit-text-size-adjust: 100%; //fix for iOS
+  font-size: $p-size;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  letter-spacing: -.1rem;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom:20px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 1.25;
+  margin-bottom:15px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom:15px;
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom:10px;
+  letter-spacing: -.08rem;
+  line-height: 1.35;
+  font-weight:$semibold;
+  
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
+  margin-bottom:10px;
+  text-transform:uppercase;
+  font-weight:$semibold;
+}
+
+h6 {
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin-bottom:10px;
+  text-transform:uppercase;
+  font-weight:$bold;
+}
+
+// Link
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+a {
+  text-decoration: none;
+  transition: .25s;
+  &:focus,
+  &:hover {
+    opacity: .7;
+  }
+}
+
+//Code
+// Code
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+code {
+  background: black;
+  color: white;
+  border-radius: .4rem;
+  font-size: 86%;
+  margin: 0 .2rem;
+  padding: .2rem .5rem;
+  white-space: nowrap;
+}
+
+pre {
+  background: black;
+  color: white;
+  overflow-y: hidden;
+  &>code {
+    border-radius: 0;
+    display: block;
+    padding: 1rem 1.5rem;
+    white-space: pre;
+  }
+}
+
+//Image 
+img {
+  max-width: 100%;
+}
+
+
+// Blockquote
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+blockquote
+	{border-left: .3rem solid grey;
+	margin-left: 0;
+	margin-right: 0;
+    padding: 1rem 1.5rem;
+    background:lightgrey;
+
+	*:last-child
+		{margin-bottom: 0;}}
