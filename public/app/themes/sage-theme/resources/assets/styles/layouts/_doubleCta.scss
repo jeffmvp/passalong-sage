@@ -9,7 +9,7 @@
             margin-bottom:30px;
         }
     }
-    .grid__col {
+    .column {
         &:nth-of-type(even) {
             .DoubleCta-card {
                 border-color:$orange;
@@ -22,6 +22,7 @@
                     &:hover {
                         background:$orange;
                         color:$white;
+                        opacity:1;
                     }
                 }
             }

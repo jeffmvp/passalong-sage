@@ -5,10 +5,10 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-  background-color: blue;
-  border: .1rem solid blue;
+  background-color: $purple;
+  border: .1rem solid $purple;
   border-radius: .4rem;
-  color: black;
+  color: $white;
   transition:.25s;
   cursor: pointer;
   display: inline-block;
@@ -24,9 +24,9 @@ input[type='submit'] {
   white-space: nowrap;
   &:focus,
   &:hover {
-    background-color: white;
-    border-color: white;
-    color: black;
+    background-color: $orange;
+    border-color: $orange;
+    color: $white;
     outline: 0;
   }
   &[disabled] {
@@ -34,13 +34,13 @@ input[type='submit'] {
     opacity: .5;
     &:focus,
     &:hover {
-      background-color: blue;
-      border-color: blue;
+      background-color: $purple;
+      border-color: $purple;
     }
   }
   &.button-outline {
     background-color: transparent;
-    color: blue;
+    color: $purple;
     &:focus,
     &:hover {
       background-color: transparent;
@@ -50,13 +50,13 @@ input[type='submit'] {
     &[disabled] &:focus,
     &:hover {
       border-color: inherit;
-      color: blue;
+      color: $purple;
     }
   }
   &.button-clear {
     background-color: transparent;
     border-color: transparent;
-    color: blue;
+    color: $purple;
     &:focus,
     &:hover {
       background-color: transparent;
@@ -65,6 +65,6 @@ input[type='submit'] {
     }
     &[disabled] &:focus,
     &:hover 
-        {color: blue;}
+        {color: $purple;}
   }
 }

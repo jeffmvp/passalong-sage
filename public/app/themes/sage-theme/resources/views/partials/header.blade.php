@@ -9,13 +9,13 @@
 
 <nav class="Header">
   <div class="Container">
-    <div class="grid">
-      <div class="grid__col grid__col--1-of-4 u-aL">
+    <div class="row">
+      <div class="column column-25 u-aL">
         <a href="/">
           <img class="Header-logo" src="{{ $logo }}">
         </a>
       </div>
-      <div class="grid__col grid__col--3-of-4 u-aR">
+      <div class="column column-75 u-aR">
         @php (wp_nav_menu($params))
       </div>
     </div>

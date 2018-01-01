@@ -6,8 +6,8 @@ $backgroundImage = get_sub_field('background_image');
 ?>
 <section class="Hero" id='Hero' style="background-image:url(<?php echo $backgroundImage; ?>)">
     <div class="Container Container--small">
-        <div class="grid">
-            <div class="grid__col grid__col--2-of-2 u-aC">
+        <div class="row">
+            <div class="column u-aC">
                 <?php if($headingImage) : ?>
                 <img class="Hero-image" src="<?php echo $headingImage; ?>">
                 <?php endif; ?>

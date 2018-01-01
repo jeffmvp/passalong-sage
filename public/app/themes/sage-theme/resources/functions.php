@@ -90,3 +90,12 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+
+require get_template_directory() . '/src/setup.php';
+// require get_template_directory() . '/src/navigation.php';
+require get_template_directory() . '/src/custom-post-type.php';
+require get_template_directory() . '/src/json-api.php';
+// require get_template_directory() . '/src/mvp-nav-walker.php';
+require get_template_directory() . '/src/acf.php';
+require get_template_directory() . '/src/editor.php';

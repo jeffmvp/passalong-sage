@@ -6,6 +6,7 @@
     width:100%;
     height:500px;
     padding:100px;
+    background-position:center center;
     @include mobile {
         min-height:240px;
     }
@@ -27,7 +28,7 @@
         display:table;
         width:100%;
         height:100%;
-        .grid {
+        .row {
             display:table-cell;
             vertical-align:middle;
         }

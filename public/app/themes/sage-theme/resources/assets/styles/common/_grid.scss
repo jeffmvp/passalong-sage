@@ -127,6 +127,10 @@
     &.column-90 {
       flex: 0 0 90%;
       max-width: 90%;
+    }
+    &.column-100 {
+      flex: 0 0 100%;
+      max-width: 100%;
     } // .column-* vertically aligns an individual .column
     .column-top {
       align-self: flex-start;

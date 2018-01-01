@@ -13,16 +13,16 @@ else {
 ?>
 <section class="Content">
 <div class="Container <?php echo $contentClass; ?>">
-    <div class="grid">
+    <div class="row">
     <?php if ($contentCol == false) : ?>
-        <div class="grid__col grid__col--2-of-2">
+        <div class="column">
             <?php echo $content; ?>
         </div>
     <?php else : ?>
-        <div class="grid__col grid__col--2-of-3">
+        <div class="column column-66">
             <?php echo $content; ?>
         </div>
-        <div class="grid__col grid__col--1-of-3">
+        <div class="column column-33">
             <?php echo $contentTwo; ?>
         </div>
     <?php endif; ?>

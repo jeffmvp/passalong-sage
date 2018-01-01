@@ -3,9 +3,9 @@ $cards = get_sub_field('cards');
 ?>
 <section class="DoubleCta">
 <div class="Container Container--content">
-    <div class="grid">
+    <div class="row">
     <?php foreach($cards as $card) : ?>
-        <div class="grid__col grid__col--1-of-2">
+        <div class="column column-50">
             <div class="DoubleCta-card">
                 <h3><?php echo $card['title']; ?></h3>
                 <?php echo $card['content']; ?>
