@@ -132,7 +132,7 @@ class RegisterPostType {
 new RegisterPostType(array(
 	'singular' => 'Tracked Gift',
 	'plural' => 'Tracked Gifts',
-	'slug' => 'tracked_gifts',
+	'slug' => 'tracked-gifts',
 	'icon' => 'dashicons-awards',
 	'taxonomy' => 'Categories'
 ));

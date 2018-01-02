@@ -20,4 +20,9 @@
         font-weight:600;
         color:$purple;
     }
+    textarea{
+        width:100% !important;
+        min-width:100%;
+        min-height:150px;
+    }
 }
