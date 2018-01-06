@@ -12,7 +12,7 @@ $addons = get_field('story_addons');
       <div class="column column-50 TrackedGift-story">
         <div class="TrackedGift-container">
           <h2>@php(the_title())</h2>
-          @if($$meta)
+          @if($meta)
           <h4>{{$meta}}</h4>
           @endif
           @php(the_content())
