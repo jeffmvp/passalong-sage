@@ -31,7 +31,7 @@ $logoInverted = get_field('logo_inverted', 'options');
     <div class="Container Container--sub">
         <div class="row">
             <div class="column column-25">
-                <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongGifts<br/>All rights reserved</span><br/>
+                <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongGifts<br/>
                 <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongBouquets<br/>All rights reserved</span>
             </div>
             <div class="column column-25">

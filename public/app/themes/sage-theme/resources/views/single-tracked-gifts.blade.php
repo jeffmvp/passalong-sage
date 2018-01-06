@@ -16,7 +16,7 @@ $addons = get_field('story_addons');
           <h4>{{$meta}}</h4>
           @endif
           @php(the_content())
-          @if(the_post_thumbnail_url())
+          @if(get_the_post_thumbnail_url())
           <img src="@php(the_post_thumbnail_url())">
           @endif
         </div>
@@ -30,25 +30,11 @@ $addons = get_field('story_addons');
               <div class="TrackedGift-name">
                 Passed Along to: {{$addon['name']}}
               </div>
-
+              @if($addon['date'])
               <div class="TrackedGift-date">
                 On: {{$addon['date']}}
               </div>
-
-              <div class="TrackedGift-message">
-                  {!!$addon['content']!!}
-              </div>
-            </div>
-            @endforeach  @foreach($addons as $addon)
-            <div class="TrackedGift-extra">
-              <div class="TrackedGift-name">
-                Passed Along to: {{$addon['name']}}
-              </div>
-
-              <div class="TrackedGift-date">
-                On: {{$addon['date']}}
-              </div>
-
+              @endif
               <div class="TrackedGift-message">
                   {!!$addon['content']!!}
               </div>

@@ -18,20 +18,21 @@ $logoInverted = get_field('logo_inverted', 'options');
                 <img class="Footer-logo" src="<?php echo $logoInverted ?>">
             </div>
             <div class="column column-25">
-                Legal Menu
+                User Accounts Coming Soon
             </div>
             <div class="column column-25">
-                Social Menu
+                Social Media Coming Soon
             </div>
             <div class="column column-25">
-                Newsletter
+                Mailing List Coming Soon
             </div>
         </div>
     </div>
     <div class="Container Container--sub">
         <div class="row">
             <div class="column column-25">
-                <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongGifts<br/>All rights reserved</span>
+                <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongGifts<br/>
+                <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongBouquets<br/>All rights reserved</span>
             </div>
             <div class="column column-25">
                 
