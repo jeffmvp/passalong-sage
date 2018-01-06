@@ -1,5 +1,9 @@
 .Banner {
     padding:40px;
+    
+    @include mobile {
+        padding:20px;
+    }
     h3 {
         margin-bottom:0;
         margin-top:0;
@@ -9,6 +13,7 @@
         display:block;
         padding:20px 40px;
         transition:.25s;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         &:hover {
             background:$purple;
             color:$white;

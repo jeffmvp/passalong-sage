@@ -12,7 +12,7 @@ $members = get_sub_field('members');
                 <div class="Team-card Team-card--intro">
                     <h3>{{$heading}}</h3>
                     <h6>{{$subheading}}</h6>
-                    <p>{{$content}}</p>
+                    <p>{!!$content!!}</p>
                 </div>
             </div>
             @foreach ($members as $member)

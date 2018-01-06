@@ -1,3 +1,40 @@
 .TrackedGifts {
-    padding:40px 0;
+  padding: 50px 0;
+  .TrackedGifts-top {
+    height: 150px;
+    background-position: Center center;
+    background-size: cover;
+    width: 100%;
+  }
+  .TrackedGifts-bottom {
+    padding: 15px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .TrackedGifts-bottom,
+  h2,
+  p {
+    transition: .25s;
+  }
+  .column {
+      &:hover {
+        opacity: 1;
+      }
+  }
+  .TrackedGifts-item {
+    padding: 0;
+    background: $grey;
+    &:hover {
+      opacity: 1;
+      .TrackedGifts-bottom {
+        background: $purple;
+        h2,
+        p {
+          color: $white;
+        }
+      }
+    }
+  }
 }
+

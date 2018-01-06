@@ -13,8 +13,17 @@ $loop = new WP_Query( $args );
             </div>
         @while ( $loop->have_posts() )
             @php($loop->the_post())
-            <a href="{{ the_permalink() }}" class="column column-25">
-                test
+            <?php
+            $short = wp_trim_words(get_the_content(), 15, '…');
+            ?>
+            <a href="{{ the_permalink() }}" class="column column-33">
+                <div class="TrackedGifts-item">
+                    <div class="TrackedGifts-top" style="background-image:url(@php(the_post_thumbnail_url()))"></div>
+                    <div class="TrackedGifts-bottom">
+                        <h2>@php(the_title())</h2>
+                        <p>{!! $short !!}</p>
+                    </div>
+                </div>  
             </a>
         @endwhile
         @php(wp_reset_query())

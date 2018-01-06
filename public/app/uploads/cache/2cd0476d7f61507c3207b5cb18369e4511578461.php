@@ -12,7 +12,7 @@ $members = get_sub_field('members');
                 <div class="Team-card Team-card--intro">
                     <h3><?php echo e($heading); ?></h3>
                     <h6><?php echo e($subheading); ?></h6>
-                    <p><?php echo e($content); ?></p>
+                    <p><?php echo $content; ?></p>
                 </div>
             </div>
             <?php $__currentLoopData = $members; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $member): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>

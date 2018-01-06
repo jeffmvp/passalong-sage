@@ -6,13 +6,12 @@
         background:$white;
     }
     .TrackedGift-addon {
-        background: lighten($green, 20%);
+        background: lighten($green, 30%);
         h4{
             color:$black;
         }
     }
     .TrackedGift-container {
-        max-width:500px;
         margin:0 auto;
         display:block;
     }
