@@ -17,6 +17,10 @@ export default {
     document.querySelector('.toggle-button').addEventListener('click', function() {
       slideout.toggle();
     });
+
+    $('.Hero-off').removeClass('Hero-off');
+
+   
    
   },
   finalize() {

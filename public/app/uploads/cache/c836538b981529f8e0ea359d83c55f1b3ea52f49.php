@@ -4,7 +4,7 @@ $headingImage = get_sub_field('heading_image');
 $subheading = get_sub_field('subheading');
 $backgroundImage = get_sub_field('background_image');
 ?>
-<section class="Hero" id='Hero' style="background-image:url(<?php echo $backgroundImage; ?>)">
+<section class="Hero Hero-off" id='Hero' style="background-image:url(<?php echo $backgroundImage; ?>)">
     <div class="Container Container--small">
         <div class="row">
             <div class="column u-aC">
