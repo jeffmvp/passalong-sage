@@ -5,12 +5,22 @@
     width: 100%;
     z-index: 2000;
     background: $white;
-    transition: .5s;
+    transition: .25s;
     opacity: 1;
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     @include mobile {
         height:80px;
+    }
+    .toggle-button {
+        display:block;
+        position:absolute;
+        top:33px;
+        width:23px;
+        right:20px;
+        @include mobile{
+            display:block !important;
+        }
     }
     .Header-logo {
         max-width: 200px;

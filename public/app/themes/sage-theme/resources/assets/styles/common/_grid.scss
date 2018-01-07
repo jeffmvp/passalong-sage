@@ -54,6 +54,10 @@
     margin-left: 0;
     max-width: 100%;
     width: 100; // Column Offsets
+    &.column-empty {
+      margin-top:0 !important;
+      margin-bottom:0 !important;
+    }
     &.column-offset-10 {
       margin-left: 10%;
     }

@@ -4,8 +4,8 @@
     position:relative;
     overflow:hidden;
     width:100%;
-    height:500px;
-    padding:100px;
+    height:350px;
+    padding:50px;
     background-position:center center;
     @include mobile {
         height:300px;
@@ -39,6 +39,7 @@
         color:$white;
         font-style:normal;
         margin-top:30px;
+        margin-bottom:0;
     }
     h1 {
         font-size:60px;

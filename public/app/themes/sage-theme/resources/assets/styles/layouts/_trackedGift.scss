@@ -11,6 +11,13 @@
             color:$black;
         }
     }
+    .row .column-50 {
+
+        @include tablet {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
     .TrackedGift-container {
         margin:0 auto;
         display:block;

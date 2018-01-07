@@ -31,29 +31,12 @@ $addons = get_field('story_addons');
                 Passed Along to: <?php echo e($addon['name']); ?>
 
               </div>
-
+              <?php if($addon['date']): ?>
               <div class="TrackedGift-date">
                 On: <?php echo e($addon['date']); ?>
 
               </div>
-
-              <div class="TrackedGift-message">
-                  <?php echo $addon['content']; ?>
-
-              </div>
-            </div>
-            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>  <?php $__currentLoopData = $addons; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $addon): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-            <div class="TrackedGift-extra">
-              <div class="TrackedGift-name">
-                Passed Along to: <?php echo e($addon['name']); ?>
-
-              </div>
-
-              <div class="TrackedGift-date">
-                On: <?php echo e($addon['date']); ?>
-
-              </div>
-
+              <?php endif; ?>
               <div class="TrackedGift-message">
                   <?php echo $addon['content']; ?>
 

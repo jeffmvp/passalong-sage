@@ -34,10 +34,10 @@ $logoInverted = get_field('logo_inverted', 'options');
                 <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongGifts<br/>
                 <span>Copyright &copy; <?php echo date("Y"); ?> PassAlongBouquets<br/>All rights reserved</span>
             </div>
-            <div class="column column-25">
+            <div class="column column-empty column-25">
                 
             </div>
-            <div class="column column-25">
+            <div class="column column-empty column-25">
                 
             </div>
             <div class="column column-25">

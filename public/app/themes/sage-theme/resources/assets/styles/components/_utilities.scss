@@ -24,6 +24,12 @@
     @include mobile {
         min-width: 180px;
     }
+    @include phoneSmall {
+        margin-left:0;
+        display:block;
+        width:100%;
+        max-width:100%;
+    }
     &.Button--inverted {
         @include buttonBg($white);
         &:hover {
@@ -34,6 +40,13 @@
         @include buttonBg($orange);
         color: $orange !important;
         margin-left:20px;
+        @include phoneSmall {
+            margin-left:0;
+            display:block;
+            width:100%;
+            max-width:100%;
+        }
+        
         &:hover {
             color: $white !important;
         }

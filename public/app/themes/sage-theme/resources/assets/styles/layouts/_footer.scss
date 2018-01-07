@@ -5,6 +5,14 @@
         padding: 30px 5px 30px;
         text-align:center !important;
     }
+    .row .column-25 {
+        @include mobile {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+    }
     * {
         color:$white !important;
         font-size:14px;
@@ -13,6 +21,9 @@
     .Footer-logo {
         margin-bottom: 20px;
         max-width:200px;
+        @include mobile {
+            margin-bottom:0;
+        }
     }.Container--sub {
         * {
             font-size:12px !important;

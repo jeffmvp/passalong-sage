@@ -4,7 +4,10 @@
   
   $params = array(
       'menu' => 'Main'
-  )
+  );
+  $mobile = array(
+    'menu' => 'Mobile'
+  );
 ?>
 
 <nav class="Header">
@@ -17,7 +20,17 @@
       </div>
       <div class="column column-75 u-aR">
         @php (wp_nav_menu($params))
+        
+        <div class="toggle-button u-mobile">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
       </div>
     </div>
   </div>
 </nav>
+<nav class="MobileMenu">@php (wp_nav_menu($mobile))</nav>
+

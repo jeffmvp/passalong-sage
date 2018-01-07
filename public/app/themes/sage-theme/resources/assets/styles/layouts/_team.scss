@@ -3,6 +3,18 @@
     padding-bottom:40px; 
     .row {
         justify-content: center;
+        .column-25 {
+            @include mobile {
+                flex: 0 0 50%;
+                max-width: 50%;
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+            @include phone {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
     }
     .Team-card {
         height:300px;
