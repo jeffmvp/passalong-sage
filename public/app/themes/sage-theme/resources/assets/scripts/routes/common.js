@@ -8,7 +8,7 @@ export default {
     var slideout = new Slideout({
       'panel': document.getElementById('panel'),
       'menu': document.getElementById('menu-mobile'),
-      'padding': 256,
+      'padding': 156,
       'tolerance': 70,
       'easing': 'ease-in',
       'side': 'right'

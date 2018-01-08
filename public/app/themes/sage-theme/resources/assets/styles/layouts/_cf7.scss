@@ -25,4 +25,11 @@
         min-width:100%;
         min-height:150px;
     }
+    .row .column-50 {
+        @include tablet {
+            width:100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
 }

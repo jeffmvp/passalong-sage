@@ -12,7 +12,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 256px;
+  width: 156px;
   min-height: 100vh;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -36,7 +36,7 @@ body {
 }
 
 .slideout-menu-right {
-  right: -256px;
+  right: -156px;
   .current-menu-item {
     opacity:.65;
   }
@@ -65,6 +65,10 @@ body {
 }
 
 .slideout-open .Header {
-  width: calc(100% - 256px);
+  width: calc(100% - 156px);
+}
+
+.slideout-open .Header .toggle-button {
+  right:10px;
 }
 

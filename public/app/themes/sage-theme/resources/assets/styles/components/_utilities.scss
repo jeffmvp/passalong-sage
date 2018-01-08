@@ -15,6 +15,9 @@
     }
 }
 
+html {
+    visibility:visible !important;
+}
 
 .Button {
     @include buttonBg($green);
