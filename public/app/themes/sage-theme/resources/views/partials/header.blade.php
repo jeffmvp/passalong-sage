@@ -5,9 +5,7 @@
   $params = array(
       'menu' => 'Main'
   );
-  $mobile = array(
-    'menu' => 'Mobile'
-  );
+  
 ?>
 
 <nav class="Header">
@@ -32,5 +30,5 @@
     </div>
   </div>
 </nav>
-<nav class="MobileMenu">@php (wp_nav_menu($mobile))</nav>
+
 

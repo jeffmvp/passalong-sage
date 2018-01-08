@@ -11,6 +11,10 @@ $logoInverted = get_field('logo_inverted', 'options');
 
 @endphp
 </div>
+<?php $mobile = array(
+  'menu' => 'Mobile'
+); ?>
+<nav class="MobileMenu">@php (wp_nav_menu($mobile))</nav>
 <section class="Footer">
     <div class="Container Container--footer">
         <div class="row">
