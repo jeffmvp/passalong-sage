@@ -1,0 +1,10 @@
+2018-01-27T19:28:18+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function var_dumplocate_template() in /var/www/public/app/plugins/woocommerce/includes/wc-core-functions.php:165
+Stack trace:
+#0 /var/www/public/app/plugins/woocommerce/includes/wc-template-functions.php(469): wc_get_template_part('content', 'product')
+#1 /var/www/public/app/uploads/cache/0d4b19b5d723818f7c2f462594c4b43e368bf240.php(3): woocommerce_content()
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/PhpEngine.php(42): include('/var/www/public...')
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#4 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#5 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#6 /var/www/public/a
+

@@ -223,4 +223,3 @@ remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
 // Remove <p> tags from Excerpt altogether
 remove_filter('the_excerpt', 'wpautop');
 
-
