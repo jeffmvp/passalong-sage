@@ -19,7 +19,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+?>
+<div class="Container">
+<?php
 wc_print_notices();
 
 do_action( 'woocommerce_before_checkout_form', $checkout );
@@ -65,3 +67,4 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 </form>
 
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+<div class="Container">

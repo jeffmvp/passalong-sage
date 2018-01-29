@@ -19,7 +19,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+?>
+<div class="Container">
+<?php
 wc_print_notices();
 
 /**
@@ -36,4 +38,5 @@ do_action( 'woocommerce_account_navigation' ); ?>
 		 */
 		do_action( 'woocommerce_account_content' );
 	?>
+</div>
 </div>

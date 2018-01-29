@@ -128,3 +128,7 @@ add_action('after_setup_theme', function () {
 });
 //woo
 add_theme_support('woocommerce');
+
+add_action( 'woocommerce_after_shop_loop_item', function(){
+	remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart' );
+}, 1 );

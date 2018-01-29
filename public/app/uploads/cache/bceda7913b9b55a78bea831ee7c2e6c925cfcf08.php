@@ -22,13 +22,18 @@ $logoInverted = get_field('logo_inverted', 'options');
                 <img class="Footer-logo" src="<?php echo $logoInverted ?>">
             </div>
             <div class="column column-25">
-                User Accounts Coming Soon
+                <ul>
+                    <li><a href="/my-account">Account</a></li>
+                    <li><a href="/cart">Cart</a></li>
+                    <li><a href="/checkout">Checkout</a></li>
+                    <li><a href="/terms-of-use">Terms of Use</a></li>
+                </ul>
             </div>
             <div class="column column-25">
-                Social Media Coming Soon
+                
             </div>
             <div class="column column-25">
-                Mailing List Coming Soon
+                
             </div>
         </div>
     </div>

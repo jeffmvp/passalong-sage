@@ -19,6 +19,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+?>
+<div class="Container">
+<?php
 wc_print_notices();
 
 do_action( 'woocommerce_before_cart' ); ?>
@@ -165,3 +168,4 @@ do_action( 'woocommerce_before_cart' ); ?>
 </div>
 
 <?php do_action( 'woocommerce_after_cart' ); ?>
+</div>
