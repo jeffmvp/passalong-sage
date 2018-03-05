@@ -1,4 +1,6 @@
 @extends('layouts.app')
 @section('content')
-  @php(woocommerce_content())
+  <div class="Container Container--small">
+    @php(woocommerce_content())
+  </div>
 @endsection
