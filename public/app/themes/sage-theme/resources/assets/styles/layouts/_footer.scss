@@ -10,12 +10,20 @@
             flex: 0 0 100%;
             max-width: 100%;
             margin-top:10px;
-            margin-bottom:10px;
+        
         }
     }
     * {
         color:$white !important;
         font-size:14px;
+    }
+    ul {
+        @include mobile {
+            margin:10px 0;
+            li {
+                list-style-type:none;
+            }
+        }
     }
 
     .Footer-logo {

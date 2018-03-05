@@ -19,7 +19,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
+?>
+<div class="Container Container--small">
+<?php
 wc_print_notices();
 
 /**
@@ -34,3 +36,5 @@ if ( wc_get_page_id( 'shop' ) > 0 ) : ?>
 		</a>
 	</p>
 <?php endif; ?>
+</div>
+

@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-<div class="Container">
+<div class="Container Container--small">
 <?php
 wc_print_notices();
 

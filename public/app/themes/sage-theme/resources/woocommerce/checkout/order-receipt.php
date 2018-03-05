@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-
+<div class="Container Container--small">
 <ul class="order_details">
 	<li class="order">
 		<?php esc_html_e( 'Order number:', 'woocommerce' ); ?>
@@ -41,7 +41,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</li>
 	<?php endif; ?>
 </ul>
-
+</div>
 <?php do_action( 'woocommerce_receipt_' . $order->get_payment_method(), $order->get_id() ); ?>
 
 <div class="clear"></div>

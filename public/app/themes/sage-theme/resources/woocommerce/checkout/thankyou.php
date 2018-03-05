@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
-
+<div class="Container Container--small">
 <div class="woocommerce-order">
 
 	<?php if ( $order ) : ?>
@@ -84,4 +84,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php endif; ?>
 
+</div>
 </div>
