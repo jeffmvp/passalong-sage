@@ -8,3 +8,234 @@ Stack trace:
 #5 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
 #6 /var/www/public/a
 
+2018-03-11T18:25:48+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected ')' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:44
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/www/public/a
+
+2018-03-11T18:25:51+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected ')' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:44
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/www/public/a
+
+2018-03-11T18:34:20+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'endif' (T_ENDIF) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:54
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /va
+
+2018-03-11T18:34:22+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'endif' (T_ENDIF) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:54
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /va
+
+2018-03-11T19:18:21+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:18:24+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:18:24+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:18:31+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:18:54+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:19:47+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:20:16+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:20:26+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'Default' (T_DEFAULT) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6
+
+2018-03-11T19:20:44+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'echo' (T_ECHO) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/
+
+2018-03-11T19:20:54+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'echo' (T_ECHO) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/
+
+2018-03-11T19:23:14+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'echo' (T_ECHO) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/
+
+2018-03-11T19:23:15+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected 'echo' (T_ECHO) in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/
+
+2018-03-11T19:23:28+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected ';', expecting ')' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:49
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /v
+
+2018-03-11T20:21:44+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function cf_form() in /var/www/public/app/themes/sage-theme/resources/src/setup.php:333
+Stack trace:
+#0 /var/www/public/wp/wp-includes/class-walker-comment.php(174): my_comment_template(Object(WP_Comment), Array, 1)
+#1 /var/www/public/wp/wp-includes/class-wp-walker.php(145): Walker_Comment->start_el('', Object(WP_Comment), 1, Array)
+#2 /var/www/public/wp/wp-includes/class-walker-comment.php(135): Walker->display_element(Object(WP_Comment), Array, 1, 0, Array, '')
+#3 /var/www/public/wp/wp-includes/class-wp-walker.php(321): Walker_Comment->display_element(Object(WP_Comment), Array, 1, 0, Array, '')
+#4 /var/www/public/wp/wp-includes/comment-template.php(2097): Walker->paged_walk(Array, -1, 0, 0, Array)
+#5 /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php(33): wp_list_comments(Array)
+#6 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/PhpEngine.php(42): include('/var/www/public...')
+#
+
+2018-03-11T22:46:56+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '<', expecting end of file in /var/www/public/app/uploads/cache/fec131c63ce22f4dbb772e671729165aa8a3969e.php:97
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/uploads/cache/c590f4fef7e863758669c2b024349b4316054d2a.php(7): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/PhpEngine.php(42): include('/var/www/public...')
+#6
+
+2018-03-11T23:13:17+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function get_user_id() in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:110
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/PhpEngine.php(42): include()
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#5 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#6 /var/www/public/app/themes/sage-theme/app
+
+2018-03-11T23:13:19+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function get_user_id() in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:110
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/PhpEngine.php(42): include()
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#5 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#6 /var/www/public/app/themes/sage-theme/app
+
+2018-03-11T23:13:20+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function get_user_id() in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:110
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/PhpEngine.php(42): include()
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#5 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#6 /var/www/public/app/themes/sage-theme/app
+
+2018-03-11T23:13:32+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Call to undefined function get_author_id() in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:110
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/PhpEngine.php(42): include()
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#5 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#6 /var/www/public/app/themes/sage-theme/a
+

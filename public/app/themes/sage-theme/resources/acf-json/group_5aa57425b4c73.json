@@ -1,14 +1,14 @@
 {
-    "key": "group_5a4ab7d13cd82",
-    "title": "Tracked Gifts",
+    "key": "group_5aa57425b4c73",
+    "title": "Tracked Gifts Comments",
     "fields": [
         {
-            "key": "field_5aa5ac5d26fca",
-            "label": "Story Meta",
-            "name": "story_meta",
+            "key": "field_5aa5742d954f5__trashed",
+            "label": "Name",
+            "name": "name",
             "type": "text",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -22,12 +22,12 @@
             "maxlength": ""
         },
         {
-            "key": "field_5aa5ae42774ca",
-            "label": "Story Title",
-            "name": "story_title",
+            "key": "field_5aa57432954f6__trashed",
+            "label": "Email",
+            "name": "email",
             "type": "text",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -41,10 +41,29 @@
             "maxlength": ""
         },
         {
-            "key": "field_5aa5ac6826fcb",
-            "label": "Product Selector",
-            "name": "product_selector",
-            "type": "post_object",
+            "key": "field_5aa57438954f7__trashed",
+            "label": "Started Date",
+            "name": "started_date",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5aa57443954f8__trashed",
+            "label": "My Wish for this Gift",
+            "name": "my_wish_for_this_gift",
+            "type": "textarea",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -53,20 +72,17 @@
                 "class": "",
                 "id": ""
             },
-            "post_type": [
-                "product"
-            ],
-            "taxonomy": [],
-            "allow_null": 0,
-            "multiple": 0,
-            "return_format": "object",
-            "ui": 1
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
         }
     ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "comment",
                 "operator": "==",
                 "value": "tracked-gifts"
             }
@@ -77,8 +93,11 @@
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
-    "hide_on_screen": "",
+    "hide_on_screen": [
+        "the_content",
+        "comments"
+    ],
     "active": 1,
     "description": "",
-    "modified": 1520807901
+    "modified": 1520802568
 }

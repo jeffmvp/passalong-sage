@@ -491,7 +491,6 @@ class acf_form_front {
 		// load values from this post
 		$post_id = $args['post_id'];
 		
-		
 		// dont load values for 'new_post'
 		if( $post_id === 'new_post' ) $post_id = false;
 		
