@@ -1,4 +1,17 @@
 .Form {
     padding:40px 0;
     background:$grey;
+
+    ul.acf-image-select-list li {
+        display: inline-block;
+        margin: 5px;
+        max-width: 46%;
+        text-align: center;
+    }
+
+    .acf-image-select-list  {
+        margin: 0 !important;
+    }
+
+
 }
