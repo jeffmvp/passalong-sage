@@ -4,8 +4,14 @@
 <?php while(have_posts()): ?> <?php (the_post()); ?>
 <?php 
 $meta = get_field('story_meta');
-$title = get_field('story_title');
+$title = get_the_title();
 $addons = get_field('story_addons');
+$giftStartedBy = get_field('your_name');
+$giftStartedByEmail = get_field('your_email');
+$giftStartedByDate = get_field('story_meta');
+$giftImage = get_field('product_image');
+
+
 ?>
 
 <section class="TrackedGift">
@@ -13,12 +19,12 @@ $addons = get_field('story_addons');
       <div class="column column-50 TrackedGift-story">
         <div class="TrackedGift-container">
           <h1><?php echo e($title); ?></h1>
-          <h4><?php (the_title()); ?></h4>
-          <?php if($meta): ?>
-          <h4><?php echo e($meta); ?></h4>
-          <?php endif; ?>
-          <?php (the_content()); ?>
-
+          <h4>Started by: <?php echo e($giftStartedBy); ?>, <?php echo e($giftStartedByEmail); ?></h4>
+          <h4>Started by: <?php echo e($giftStartedBy); ?></h4>
+          <h4>Date Gift was Purchased: <?php echo e($giftStartedByDate); ?></h4>
+          <h3>My wish for the journey this gift will make:</h3>
+          <?php echo $giftStartedBy; ?><br/><br/><br/>
+          <img src="<?php echo e($giftImage); ?>">
 
           <?php
 
@@ -115,6 +121,29 @@ $addons = get_field('story_addons');
       <div class="column column-50 TrackedGift-addon">
         <div class="TrackedGift-container">
           <h4>Story History</h4>
+          <div class="TrackedGift-extra">
+            <?php
+            $giftTo = get_field('i_passed_along_this_gift_to');
+            $giftDate = get_field('on_this_date');
+            $giftMessage = get_field('my_message_is');
+            ?>
+              <div class="TrackedGift-name">
+              
+                Passed Along to: <?php echo $giftTo; ?>
+              </div>
+              <div class="TrackedGift-date">
+                On: <?php echo $giftDate; ?>
+              </div>
+              <?php if ($giftMessage != '') : ?>
+              <div class="TrackedGift-message">
+                
+                <strong>My Message is:</strong><br/>
+                <?php echo $giftMessage; ?>
+                
+        
+              </div>
+              <?php endif; ?>
+            </div>
           <?php
                 $defaults = array(
                     'callback'          => 'my_comment_template',
@@ -134,7 +163,7 @@ $addons = get_field('story_addons');
                 // Change the title of send button 
                 'label_submit' => __( 'Send', 'textdomain' ),
                 // Change the title of the reply section
-                'title_reply' => __( 'Add to the Story', 'textdomain' ),
+                'title_reply' => __( 'Follow Along', 'textdomain' ),
                 // Remove "Text or HTML to be displayed after the set of comment fields".
                  'comment_notes_after' => '',
                  'comment_field' => '<p style="display:none" class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true">' . rand(10,2000000) . '</textarea></p>'
