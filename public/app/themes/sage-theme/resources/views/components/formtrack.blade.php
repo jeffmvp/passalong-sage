@@ -44,7 +44,7 @@
                'post_title' => true,
                
                /* (boolean) Whether or not to show the post content editor field. Defaults to false */
-               'post_content' => true,
+               'post_content' => false,
                
                /* (boolean) Whether or not to create a form element. Useful when a adding to an existing form. Defaults to true */
                'form' => true,
