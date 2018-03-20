@@ -3,6 +3,30 @@
     "title": "Tracked Gifts",
     "fields": [
         {
+            "key": "field_5ab0515a41368",
+            "label": "Product Image",
+            "name": "product_image",
+            "type": "image_select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "bouquet-1: Bouquet #1": "bouquet-1: Bouquet #1",
+                "bouquet-2: Bouquet #2": "bouquet-2: Bouquet #2",
+                "bouquet-3.": "Bouquet #3",
+                "bouquet-4: Bouquet #4": "bouquet-4: Bouquet #4"
+            },
+            "default_value": [],
+            "multiple": 0,
+            "image_path": "\/app\/themes\/sage-theme\/resources\/images\/",
+            "image_extension": "jpg"
+        },
+        {
             "key": "field_5aa5ac5d26fca",
             "label": "Story Meta",
             "name": "story_meta",
@@ -39,28 +63,6 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
-        },
-        {
-            "key": "field_5aa5ac6826fcb",
-            "label": "Product Selector",
-            "name": "product_selector",
-            "type": "post_object",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "post_type": [
-                "product"
-            ],
-            "taxonomy": [],
-            "allow_null": 0,
-            "multiple": 0,
-            "return_format": "object",
-            "ui": 1
         }
     ],
     "location": [
@@ -80,5 +82,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1520807901
+    "modified": 1521504925
 }
