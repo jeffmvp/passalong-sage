@@ -3,9 +3,9 @@
     "title": "Tracked Gifts Comments",
     "fields": [
         {
-            "key": "field_5aa5742d954f5__trashed",
-            "label": "Name",
-            "name": "name",
+            "key": "field_5ab05b913ecd2",
+            "label": "I Passed Along this Gift to:",
+            "name": "i_passed_along",
             "type": "text",
             "instructions": "",
             "required": 1,
@@ -22,27 +22,8 @@
             "maxlength": ""
         },
         {
-            "key": "field_5aa57432954f6__trashed",
-            "label": "Email",
-            "name": "email",
-            "type": "text",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_5aa57438954f7__trashed",
-            "label": "Started Date",
+            "key": "field_5aa57438954f7",
+            "label": "On This Date:",
             "name": "started_date",
             "type": "text",
             "instructions": "",
@@ -60,8 +41,8 @@
             "maxlength": ""
         },
         {
-            "key": "field_5aa57443954f8__trashed",
-            "label": "My Wish for this Gift",
+            "key": "field_5aa57443954f8",
+            "label": "My Message is:",
             "name": "my_wish_for_this_gift",
             "type": "textarea",
             "instructions": "",
@@ -77,6 +58,43 @@
             "maxlength": "",
             "rows": "",
             "new_lines": ""
+        },
+        {
+            "key": "field_5aa5742d954f5",
+            "label": "Enter Your Name:",
+            "name": "name",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5aa57432954f6",
+            "label": "Enter Your Email:",
+            "name": "email",
+            "type": "email",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -99,5 +117,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1520802568
+    "modified": 1521507269
 }

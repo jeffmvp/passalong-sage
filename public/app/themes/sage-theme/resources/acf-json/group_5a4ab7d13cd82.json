@@ -16,20 +16,97 @@
                 "id": ""
             },
             "choices": {
-                "bouquet-1: Bouquet #1": "bouquet-1: Bouquet #1",
-                "bouquet-2: Bouquet #2": "bouquet-2: Bouquet #2",
+                "bouquet-1": "Bouquet #1",
+                "bouquet-2": "Bouquet #2",
                 "bouquet-3.": "Bouquet #3",
-                "bouquet-4: Bouquet #4": "bouquet-4: Bouquet #4"
+                "bouquet-4": "Bouquet #4"
             },
-            "default_value": [],
+            "default_value": {
+                "[]": "[]"
+            },
             "multiple": 0,
             "image_path": "\/app\/themes\/sage-theme\/resources\/images\/",
             "image_extension": "jpg"
         },
         {
+            "key": "field_5ab059c263132",
+            "label": "Enter Your Name:",
+            "name": "your_name",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab059d063133",
+            "label": "Enter Your Email:",
+            "name": "your_email",
+            "type": "email",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_5aa5ac5d26fca",
-            "label": "Story Meta",
+            "label": "Date Your Gift was Purchased:",
             "name": "story_meta",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ab05a8263134",
+            "label": "My wish for the journey this gift will make.",
+            "name": "my_wish",
+            "type": "wysiwyg",
+            "instructions": "(Why did you start this gift or what do you hope people\r\nwill feel)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5ab05aa763135",
+            "label": "I Passed Along this Gift to:",
+            "name": "i_passed_along_this_gift_to",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -46,9 +123,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_5aa5ae42774ca",
-            "label": "Story Title",
-            "name": "story_title",
+            "key": "field_5ab05ab863136",
+            "label": "On This Date:",
+            "name": "on_this_date",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -63,6 +140,25 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_5ab05ac163137",
+            "label": "My Message is:",
+            "name": "my_message_is",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         }
     ],
     "location": [
@@ -82,5 +178,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1521504925
+    "modified": 1521507129
 }
