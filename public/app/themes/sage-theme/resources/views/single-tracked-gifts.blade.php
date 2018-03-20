@@ -19,10 +19,9 @@ $giftImage = get_field('product_image');
       <div class="column column-50 TrackedGift-story">
         <div class="TrackedGift-container">
           <h1>{{$title}}</h1>
-          <h4>Started by: {{$giftStartedBy}}, {{$giftStartedByEmail}}</h4>
           <h4>Started by: {{$giftStartedBy}}</h4>
           <h4>Date Gift was Purchased: {{$giftStartedByDate}}</h4>
-          <h3>My wish for the journey this gift will make:</h3>
+          <h4>My wish for the journey this gift will make:</h4>
           {!!$giftStartedBy!!}<br/><br/><br/>
           <img src="{{$giftImage}}">
 

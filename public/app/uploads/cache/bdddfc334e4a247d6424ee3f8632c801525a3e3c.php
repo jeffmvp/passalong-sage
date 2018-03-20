@@ -19,10 +19,9 @@ $giftImage = get_field('product_image');
       <div class="column column-50 TrackedGift-story">
         <div class="TrackedGift-container">
           <h1><?php echo e($title); ?></h1>
-          <h4>Started by: <?php echo e($giftStartedBy); ?>, <?php echo e($giftStartedByEmail); ?></h4>
           <h4>Started by: <?php echo e($giftStartedBy); ?></h4>
           <h4>Date Gift was Purchased: <?php echo e($giftStartedByDate); ?></h4>
-          <h3>My wish for the journey this gift will make:</h3>
+          <h4>My wish for the journey this gift will make:</h4>
           <?php echo $giftStartedBy; ?><br/><br/><br/>
           <img src="<?php echo e($giftImage); ?>">
 
