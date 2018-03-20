@@ -16,16 +16,16 @@
                 "id": ""
             },
             "choices": {
-                "bouquet-1": "Bouquet #1",
-                "bouquet-2": "Bouquet #2",
-                "bouquet-3.": "Bouquet #3",
-                "bouquet-4": "Bouquet #4"
+                "\/uploads\/2017\/12\/bouquet-1": "Bouquet #1",
+                "\/uploads\/2018\/03\/bouquet-2": "Bouquet #2",
+                "\/uploads\/2018\/03\/bouquet-3": "Bouquet #3",
+                "\/app\/uploads\/2018\/03\/bouquet-4": "Bouquet #4"
             },
             "default_value": {
-                "[]": "[]"
+                "{\"[]\":\"[]\"}": "{\"[]\":\"[]\"}"
             },
             "multiple": 0,
-            "image_path": "\/app\/themes\/sage-theme\/resources\/images\/",
+            "image_path": "\/app\/",
             "image_extension": "jpg"
         },
         {
@@ -178,5 +178,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1521507129
+    "modified": 1521507641
 }
