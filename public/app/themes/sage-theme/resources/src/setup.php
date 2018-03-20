@@ -235,7 +235,7 @@ function my_comment_template( $comment, $args, $depth ) {
 		<div class="TrackedGift-extra">
 			<div class="TrackedGift-name">
 			
-				Passed Along to: <?php echo $name; ?>, Email: <?php echo $email ?>
+				Passed Along to: <?php echo $name; ?> ?>
 			</div>
 			<div class="TrackedGift-date">
 				On: <?php echo $startedDate; ?>
