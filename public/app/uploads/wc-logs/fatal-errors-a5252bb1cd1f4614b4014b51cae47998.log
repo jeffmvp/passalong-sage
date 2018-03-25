@@ -269,3 +269,53 @@ Stack trace:
 #5 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
 #6 /var/www/public/app/themes/sage-theme/app/hel
 
+2018-03-25T16:43:13+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected ')' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:22
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/www/public/a
+
+2018-03-25T16:46:03+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '<' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:25
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/www/public/a
+
+2018-03-25T16:46:23+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '<' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:30
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/www/public/a
+
+2018-03-25T16:46:27+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '<' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:30
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/www/public/a
+
+2018-03-25T16:46:36+00:00 CRITICAL Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Parse error: syntax error, unexpected '<' in /var/www/public/app/uploads/cache/bdddfc334e4a247d6424ee3f8632c801525a3e3c.php:29
+Stack trace:
+#0 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/var/www/public...', Array)
+#1 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(137): Illuminate\View\Engines\CompilerEngine->get('/var/www/public...', Array)
+#2 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(120): Illuminate\View\View->getContents()
+#3 /var/www/public/app/themes/sage-theme/vendor/illuminate/view/View.php(85): Illuminate\View\View->renderContents()
+#4 /var/www/public/app/themes/sage-theme/vendor/roots/sage-lib/Template/Blade.php(58): Illuminate\View\View->render()
+#5 /var/www/public/app/themes/sage-theme/app/helpers.php(59): Roots\Sage\Template\Blade->render('/var/www/public...', Array)
+#6 /var/www/public/a
+

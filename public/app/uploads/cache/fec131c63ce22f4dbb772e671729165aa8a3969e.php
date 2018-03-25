@@ -4,9 +4,13 @@
             <div class="row">
                 <div class="column column-50">
                         <h4>Follow Along</h4>
-                        <p>Enter your gifts product ID located on the bottom of your gift.</p>
+                        <p>Enter your gifts product ID and Secret Code below to be brought to it's designated page.</p>
                         <form id="formUrl" method="get">
-                            <input type="text" name="url" onchange="document.getElementById('formUrl').action = '/' + this.value;">
+                            <label>Product ID</label>
+                            <input type="number" name="url" onchange="document.getElementById('formUrl').action = '/tracked-gifts/' + this.value;">
+                            <label>Secret Code</label>
+                            <input type="password" name="code">
+                             
                             <input type="submit" value="Go">
                         </form>
                 </div>
@@ -41,7 +45,7 @@
                'fields' => false,
                
                /* (boolean) Whether or not to show the post title text field. Defaults to false */
-               'post_title' => true,
+               'post_title' => false,
                
                /* (boolean) Whether or not to show the post content editor field. Defaults to false */
                'post_content' => false,

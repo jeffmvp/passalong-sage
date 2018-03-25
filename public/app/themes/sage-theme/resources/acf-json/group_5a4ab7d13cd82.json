@@ -66,6 +66,23 @@
             "append": ""
         },
         {
+            "key": "field_5ab7cff19a540",
+            "label": "Secret Code",
+            "name": "secret_code",
+            "type": "password",
+            "instructions": "Enter a pin number so users may access the tracked gift.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placeholder": "Ex. 12345",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_5aa5ac5d26fca",
             "label": "Date Your Gift was Purchased:",
             "name": "story_meta",
@@ -178,5 +195,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1521510835
+    "modified": 1521996043
 }

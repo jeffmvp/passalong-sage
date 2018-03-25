@@ -235,7 +235,7 @@ function my_comment_template( $comment, $args, $depth ) {
 		<div class="TrackedGift-extra">
 			<div class="TrackedGift-name">
 			
-				Passed Along to: <?php echo $name; ?> ?>
+				Passed Along to: <?php echo $name; ?>
 			</div>
 			<div class="TrackedGift-date">
 				On: <?php echo $startedDate; ?>
@@ -257,6 +257,26 @@ function my_comment_template( $comment, $args, $depth ) {
 $customer= get_role('customer');
 $customer->add_cap('edit_comment');
 $customer->add_cap('edit_posts');
+
+
+add_filter('comment_post_redirect', 'redirect_after_comment');
+function redirect_after_comment($location)
+{
+	$permalink = get_the_permalink();
+	$postid = url_to_postid( $location );
+	$subLocal = substr($location, 0, strpos($location, "#"));
+	$code = get_field('secret_code', $postid);	
+	$newLocal = $subLocal . '?code=' . $code;
+return $newLocal;
+}
+
+add_action('wp_logout','auto_redirect_after_logout');
+function auto_redirect_after_logout(){
+wp_redirect( get_home_url() );
+exit();
+}
+
+
 
 
 

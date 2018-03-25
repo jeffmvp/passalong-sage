@@ -11,6 +11,17 @@
             color:$black;
         }
     }
+    h1 {
+        font-size:24px;
+        color:$green;
+        font-family:$body;
+        line-height:1;
+        margin-bottom:5px;
+        text-transform:none;
+        span {
+            font-size:18px;
+        }
+    }
     .row .column-50 {
 
         @include tablet {
