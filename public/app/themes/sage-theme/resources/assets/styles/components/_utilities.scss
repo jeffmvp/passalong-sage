@@ -213,3 +213,13 @@ html {
 .woocommerce {
     padding-top:20px;
 }
+.row {
+    @include mobile {
+        flex-direction: inherit !important;
+    }
+}
+img {
+    @include mobile {
+        max-height:300px;
+    }
+}

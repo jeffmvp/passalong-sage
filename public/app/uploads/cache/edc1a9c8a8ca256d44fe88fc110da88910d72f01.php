@@ -6,7 +6,7 @@
     <?php echo $__env->make('partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     
     <div class="wrap" id="thewrap" role="document">
-      <div class="content">
+      <div class="contents">
         <main class="main" id="panel">
           <?php echo $__env->yieldContent('content'); ?>
         </main>

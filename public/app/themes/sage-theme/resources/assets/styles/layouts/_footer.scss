@@ -5,6 +5,7 @@
         padding: 30px 5px 30px;
         text-align:center !important;
     }
+    
     .row .column-25 {
         @include mobile {
             flex: 0 0 100%;
