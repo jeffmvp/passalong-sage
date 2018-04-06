@@ -1,6 +1,9 @@
 .TrackedGift {
     .TrackedGift-story, .TrackedGift-addon {
-        padding:50px 40px 40px;
+        padding:50px 70px 40px;
+        @include mobile {
+            padding:50px 50px 40px;
+        }
     }
     .TrackedGift-story {
         background:$white;
