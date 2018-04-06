@@ -14,8 +14,6 @@ $giftImage = get_field('product_image');
 
 $code = get_field('secret_code');
 
-
-
 ?>
 <?php 
 
@@ -25,7 +23,8 @@ if ($code == $_GET['code'] || get_current_user_id() == get_the_author_id() ) {
       <div class="row">
         <div class="column column-50 TrackedGift-story">
           <div class="TrackedGift-container">
-            <h1>Gift Tracking ID:{{get_the_ID()}}</br><span>Gift Tracking URL with Code: <?php the_permalink() ?>?code={{$code}}</span></h1>
+            <p><strong>Important:</strong>Enter the following on the bottom of your gift:</p>
+            <h1>Gift Tracking ID#:{{get_the_ID()}}</br><span>Secret Code: {{$code}}</span></h1>
             <h4>Started by: {{$giftStartedBy}}</h4>
             <h4>Date Gift was Purchased: {{$giftStartedByDate}}</h4>
             <h4>My wish for the journey this gift will make:</h4>
@@ -117,7 +116,7 @@ if ($code == $_GET['code'] || get_current_user_id() == get_the_author_id() ) {
           );
           acf_form_head(); 
           if (get_current_user_id() == get_the_author_id()) {
-            acf_form($settings);
+            //acf_form($settings);
           }
           
   
@@ -188,7 +187,7 @@ if ($code == $_GET['code'] || get_current_user_id() == get_the_author_id() ) {
   <?php
 }
 else {
-  
+
   ?>
   <section class="Content">
     <div class="Container Container--small">
