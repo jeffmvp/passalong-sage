@@ -31,6 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</h3>
 
 		<div class="shipping_address">
+			<p>PLEASE NOTE: If you are shipping this to someone as a gift, you will not be the first recipient. To be included in the journey please ask the recipient to send you an email a confirmation email and add your email to the journey</p>
 
 			<?php do_action( 'woocommerce_before_checkout_shipping_form', $checkout ); ?>
 

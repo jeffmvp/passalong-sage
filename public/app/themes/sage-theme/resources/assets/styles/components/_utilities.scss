@@ -212,7 +212,13 @@ html {
 }
 .woocommerce {
     padding-top:20px;
+    .main {
+        > .Container {
+            padding-top:100px;
+        }
+    }
 }
+
 .row {
     @include mobile {
         flex-direction: inherit !important;
@@ -222,4 +228,8 @@ img {
     @include mobile {
         max-height:300px;
     }
+}
+
+.wc-proceed-to-checkout a.checkout-button {
+    font-size:15px !important;
 }

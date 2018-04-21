@@ -17,7 +17,15 @@
                 <div class="column column-50">
                          
                 <?php if (is_user_logged_in()) : ?>
+                <div style="padding:15px; padding-top:0;">
+
                 <h4>Start a Journey</h4>
+                <strong>IMPORTANT</strong>
+                
+                <p>Enter the following on the bottom of your gift:<br/>
+                    Gift Tracking ID#: <br/>
+                    Secret Code:<br/></p>
+                </div>
                <?php
    
    
