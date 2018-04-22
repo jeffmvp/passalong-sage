@@ -3,4 +3,7 @@
     @include mobile {
         padding-top:80px;
     }
+    > .Container {
+        margin-top: 40px;
+    }
 }
