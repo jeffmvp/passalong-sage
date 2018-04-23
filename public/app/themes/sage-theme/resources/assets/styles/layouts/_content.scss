@@ -33,9 +33,20 @@
             margin-top:20px;
         }
     }
+    .column-25 {
+        @include mobile {
+            padding-top:25px;
+        }
+    }
+    .column-50 {
+        @include mobile {
+            padding-top:25px;
+        }
+    }
     img {
         @include mobile {
             max-width:500px;
+            width:auto !important;
         }
     }
     
