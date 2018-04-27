@@ -226,7 +226,7 @@ remove_filter('the_excerpt', 'wpautop');
 //Comments
 function my_comment_template( $comment, $args, $depth ) {
 	
-		$name = get_field('name', $comment);
+		$name = get_field('i_passed_along', $comment);
 		$startedDate = get_field('started_date', $comment);
 		$email = get_field('email', $comment);
 		$myWishForThisGift = get_field('my_wish_for_this_gift', $comment);

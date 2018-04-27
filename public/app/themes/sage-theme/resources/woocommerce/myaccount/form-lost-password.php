@@ -21,6 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 wc_print_notices(); ?>
+<div class="Container Container--small">
 
 <form method="post" class="woocommerce-ResetPassword lost_reset_password">
 
@@ -43,3 +44,4 @@ wc_print_notices(); ?>
 	<?php wp_nonce_field( 'lost_password' ); ?>
 
 </form>
+</div>
