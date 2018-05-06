@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
 <p><?php printf( __( "Hi there. Your recent order on %s has been completed. Your order details are shown below for your reference:", 'woocommerce' ), get_option( 'blogname' ) ); ?></p>
-
+<p>To follow along or start a PassAlong journey, visit <a href="https://passalonggifts.com/track/">https://passalonggifts.com/track/</a></p>
 <?php
 
 /**
