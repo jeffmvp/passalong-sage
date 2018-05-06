@@ -23,8 +23,7 @@ if ($code == $_GET['code'] || get_current_user_id() == get_the_author_id() ) {
       <div class="row">
         <div class="column column-50 TrackedGift-story">
           <div class="TrackedGift-container">
-            <p><strong>Important: </strong>Enter the following on the bottom of your gift:</p>
-            <h1>Gift Tracking ID#:{{get_the_ID()}}</br><span>Secret Code: {{$code}}</span></h1>
+            <h1><span>Important: Enter the following on the bottom of your gift:</span></br>Gift Tracking ID#:{{get_the_ID()}}</br><span>Secret Code: {{$code}}</span></h1>
             <h4>Started by: {{$giftStartedBy}}</h4>
             <h4>Date Gift was Purchased: {{$giftStartedByDate}}</h4>
             <h4>My wish for the journey this gift will make:</h4>

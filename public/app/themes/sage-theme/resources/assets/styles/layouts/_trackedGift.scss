@@ -1,69 +1,84 @@
 .TrackedGift {
-    .TrackedGift-story, .TrackedGift-addon {
-        padding:50px 70px 40px;
-        @include mobile {
-            padding:50px 50px 40px;
-        }
-    }
-    .TrackedGift-story {
-        background:$white;
-    }
-    .TrackedGift-addon {
-        background: lighten($green, 30%);
-        h4{
-            color:$black;
-        }
-    }
-    h1 {
-        font-size:24px;
-        color:$green;
-        font-family:$body;
-        line-height:1;
-        margin-bottom:5px;
-        text-transform:none;
-        span {
-            font-size:18px;
-        }
-    }
-    .row .column-50 {
+  .TrackedGift-story,
+  .TrackedGift-addon {
+    padding: 50px 70px 40px;
 
-        @include tablet {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
+    @include mobile {
+      padding: 50px 50px 40px;
     }
-    .TrackedGift-story, .TrackedGift-addon {
-        min-height:100vh;
+  }
+
+  .TrackedGift-story {
+    background: $white;
+  }
+
+  .TrackedGift-addon {
+    background: lighten($green, 30%);
+
+    h4 {
+      color: $black;
     }
-    .TrackedGift-container {
-        margin:0 auto;
-        display:block;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: $green;
+    font-family: $body;
+    line-height: 1;
+    margin-bottom: 5px;
+    text-transform: none;
+
+    span {
+      font-size: 24px;
     }
-    .TrackedGift-extra {
-        background:$white;
-        padding:15px;
-        border-radius:25px;
-        margin-top:15px;
+  }
+
+  .row .column-50 {
+    @include tablet {
+      flex: 0 0 100%;
+      max-width: 100%;
     }
-    .TrackedGift-name {
-        font-family:$heading;
-        font-weight:600;
-        font-size:24px;
+  }
+
+  .TrackedGift-story,
+  .TrackedGift-addon {
+    min-height: 100vh;
+  }
+
+  .TrackedGift-container {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .TrackedGift-extra {
+    background: $white;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 15px;
+  }
+
+  .TrackedGift-name {
+    font-family: $heading;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .TrackedGift-date {
+    font-family: $heading;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .TrackedGift-form {
+    h3 {
+      color: $black;
+      margin-top: 30px;
+      margin-bottom: 10px;
     }
-    .TrackedGift-date {
-        font-family:$heading;
-        font-weight:600;
-        font-size:18px;
-        margin-bottom:10px;
+
+    label {
+      color: $black;
     }
-    .TrackedGift-form {
-        h3 {
-            color:$black;
-            margin-top:30px;
-            margin-bottom:10px;
-        }
-        label {
-            color:$black;
-        }
-    }
+  }
 }
