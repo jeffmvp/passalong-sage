@@ -30,7 +30,10 @@ $logoInverted = get_field('logo_inverted', 'options');
                 </ul>
             </div>
             <div class="column column-25">
-                
+                <a>Follow Along on Social Media</a><br/>
+                <a href="https://www.linkedin.com/in/cherryl-galezewski-6718b2150/" target="new">LinkedIn</a><br/>
+                <a href="https://www.facebook.com/Passalongbouquet/" target="new">Facebook</a><br/>
+                <a href="https://twitter.com/Passalonggifts1" target="new">Twitter</a><br/>
             </div>
             <div class="column column-25">
                 
@@ -47,6 +50,7 @@ $logoInverted = get_field('logo_inverted', 'options');
                 
             </div>
             <div class="column column-empty column-25">
+
                 
             </div>
             <div class="column column-25">
